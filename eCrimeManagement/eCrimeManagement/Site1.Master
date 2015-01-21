@@ -1,0 +1,159 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="admin.Site1" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .page
+        {
+            margin-left: 87px;
+            width: 1060px;
+            margin-right: 189px;
+        }
+        .style2
+        {
+            color: #FFFFFF;
+            top: 72px;
+            left: 215px;
+            position: absolute;
+            height: 26px;
+            width: 267px;
+        }
+        .header
+        {
+            height: 115px;
+            width: 961px;
+        }
+        #form1
+        {
+            width: 960px;
+            height: 802px;
+        }
+        .title
+        {
+            height: 101px;
+        }
+        .footer
+        {
+            width: 1145pxpx;
+        }
+        .style3
+        {
+            color: #003300;
+        }
+        .style4
+        {
+            width: 178px;
+            height: 114px;
+            top: 20px;
+            left: 973px;
+            position: absolute;
+        }
+    </style>
+</head>
+<body style ="background-position: center; width: 1145px; height: 851px; margin-right: 0px; background-image: url('/Image/flag.jpg'); background-repeat: no-repeat; background-attachment: fixed;">
+<div class="page">
+    <form id="form1" runat="server" style ="width:1070px; ">
+    <div class="header" 
+        
+        style="width:1067px; height:125px; background-image: url('http://localhost:49308/Image/Untitled.png'); background-repeat: no-repeat;">
+            <div class="title">
+               
+                <h2 class="style2" style="border: thick groove #FFFFFF">
+                &nbsp; <span class="style3">DEPT. OF POLICE</span></h2>
+                 <asp:Label ID="Label3" runat="server" Font-Names="Angsana New" 
+                    Font-Size="XX-Large" ForeColor="White" 
+                    style="top: 32px; left: 215px; position: absolute; height: 19px; width: 251px; font-weight: 700" 
+                    Text="e-CRIME MANAGEMENT  "></asp:Label>
+                <asp:Label ID="Label4" runat="server" Font-Bold="True" Font-Names="Angsana New" 
+                    Font-Size="XX-Large" ForeColor="#009933" 
+                    style="top: 33px; left: 479px; position: absolute; height: 19px; width: 113px" 
+                    Text="SYSTEM"></asp:Label>
+                <asp:Image ID="Image2" runat="server" ImageUrl="~/Image/image.jpg" 
+                    style="top: 19px; left: 1024px; position: absolute; height: 113px; width: 132px" />
+            </div>
+            </div>
+    <div style="height: 701px; width: 1067px; background:white"   >
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            
+            
+            
+        </asp:ContentPlaceHolder>
+        <asp:ImageButton ID="ImageButton1" runat="server" 
+                ImageUrl="~/Image/home_button.png" onclick="ImageButton1_Click" 
+                
+            style="z-index: 1; left: 149px; top: 165px; position: absolute; height: 41px; width: 149px" />
+        <asp:Label ID="Label1" runat="server" 
+            style="z-index: 1; left: 899px; top: 160px; position: absolute; height: 21px; width: 58px;" 
+            Text="UserID" ForeColor="Blue"></asp:Label>
+        <asp:Button ID="Button2" runat="server" 
+            style="z-index: 1; left: 121px; top: 284px; position: absolute; width: 210px; height: 26px;" 
+            Text="MANAGE STATIONS" onclick="Button2_Click" BackColor="White" 
+            BorderColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Italic="True" 
+            Font-Names="Segoe Print" ForeColor="#0066CC" />
+             <asp:Button ID="btnADDPS" Text="ADD NEW POLICE STATION" runat="server" 
+            style=" z-index :1; top: 249px; left: 121px; position: absolute; height: 26px; width: 209px" 
+            onclick="btnADDPS_Click" BackColor="White" BorderColor="Black" 
+            BorderStyle="Solid" Font-Bold="True" Font-Italic="True" 
+            Font-Names="Segoe Print" ForeColor="#0066CC" />
+        <asp:Button ID="Button3" runat="server" 
+            style="z-index: 1; left: 121px; top: 318px; position: absolute; width: 210px; height: 26px; bottom: 272px;" 
+            Text="SHOW ALL COMPLAINS" onclick="Button3_Click" BackColor="White" 
+            BorderColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Italic="True" 
+            Font-Names="Segoe Print" ForeColor="#0066CC" />
+        <asp:Button ID="Button5" runat="server" 
+            style="z-index: 1; left: 120px; top: 420px; position: absolute; width: 211px; height: 26px;" 
+            Text="CLOSE A FILE" onclick="Button5_Click" BackColor="White" 
+            BorderColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Italic="True" 
+            Font-Names="Segoe Print" ForeColor="#0066CC" />
+        <asp:Button ID="Button6" runat="server" 
+            style="z-index: 1; left: 120px; top: 456px; position: absolute; width: 211px; height: 26px;" 
+            Text="EDIT ACCOUNT" onclick="Button6_Click" BackColor="White" 
+            BorderColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Italic="True" 
+            Font-Names="Segoe Print" ForeColor="#0066CC" />
+        <asp:Button ID="Button7" runat="server" 
+            style="z-index: 1; left: 121px; top: 385px; position: absolute; width: 210px; height: 26px;" 
+            Text="SEARCH COMPLAINS" onclick="Button7_Click" BackColor="White" 
+            BorderColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Italic="True" 
+            Font-Names="Segoe Print" ForeColor="#0066CC" />
+        <asp:Button ID="btnSignOut" runat="server" BackColor="White" 
+            BorderColor="Black" Font-Bold="True" Font-Italic="True" 
+            Font-Names="Segoe Print" Font-Size="Small" ForeColor="#33CCCC" 
+            onclick="Button8_Click" 
+            style="z-index: 1; left: 1001px; top: 151px; position: absolute; width: 112px; bottom: 40px; font-size: medium; height:38px;" 
+            Text="Sign Out" />
+        <asp:Button ID="Button8" runat="server" 
+            style="z-index: 1; left: 121px; top: 351px; position: absolute; width: 210px; height: 26px;" 
+            Text="SHOW ALL CITIZEN" onclick="Button8_Click1" BackColor="White" 
+            BorderColor="Black" BorderStyle="Solid" Font-Bold="True" Font-Italic="True" 
+            Font-Names="Segoe Print" ForeColor="#0066CC" />
+        <asp:Image ID="Image1" runat="server" ImageUrl="~/Image/Crime-Report.jpg" 
+            
+            
+            style="z-index: 1; left: 161px; top: 514px; position: absolute; height: 50px; width: 129px" />
+        <asp:Label ID="Label5" runat="server" Font-Names="Angsana New" 
+            Font-Size="Large" 
+            style="top: 157px; left: 816px; position: absolute; height: 19px; width: 34px; right: 445px" 
+            Text="WELCOME"></asp:Label>
+        <asp:Panel ID="Panel1" runat="server" BorderColor="Black" BorderStyle="Solid" 
+            
+            style="top: 234px; left: 110px; position: absolute; height: 298px; width: 223px">
+        </asp:Panel>
+    </div>
+    </form>
+<div class="footer" 
+        style="background-color: #FFCCFF; width: 959px; margin-left: 4px; top: 842px; left: 92px; position: absolute; height: 17px;">
+        
+        <asp:Label ID="Label2" runat="server" Text="ALL RIGHTS RESERVED" 
+            
+            style="top: -2px; left: 410px; position: absolute; height: 19px; width: 170px"></asp:Label>
+        
+    </div>
+    </div>
+</body>
+</html>

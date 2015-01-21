@@ -1,0 +1,15 @@
+D:\GlobsynASP\eCrimeManagement\eCrimeManagement\bin\eCrimeManagement.dll
+D:\GlobsynASP\eCrimeManagement\eCrimeManagement\bin\eCrimeManagement.pdb
+D:\GlobsynASP\eCrimeManagement\eCrimeManagement\obj\Debug\eCrimeManagement.dll
+D:\GlobsynASP\eCrimeManagement\eCrimeManagement\obj\Debug\eCrimeManagement.pdb
+D:\GlobsynASP\eCrimeManagement\eCrimeManagement\obj\Debug\eCrimeManagement.csprojResolveAssemblyReference.cache
+D:\Projects\eCrimeManagement\eCrimeManagement\bin\eCrimeManagement.dll
+D:\Projects\eCrimeManagement\eCrimeManagement\bin\eCrimeManagement.pdb
+D:\Projects\eCrimeManagement\eCrimeManagement\obj\Debug\eCrimeManagement.csprojResolveAssemblyReference.cache
+D:\Projects\eCrimeManagement\eCrimeManagement\obj\Debug\eCrimeManagement.dll
+D:\Projects\eCrimeManagement\eCrimeManagement\obj\Debug\eCrimeManagement.pdb
+D:\Projects\completed project\eCrimeManagement\eCrimeManagement\bin\eCrimeManagement.dll
+D:\Projects\completed project\eCrimeManagement\eCrimeManagement\bin\eCrimeManagement.pdb
+D:\Projects\completed project\eCrimeManagement\eCrimeManagement\obj\Debug\eCrimeManagement.csprojResolveAssemblyReference.cache
+D:\Projects\completed project\eCrimeManagement\eCrimeManagement\obj\Debug\eCrimeManagement.dll
+D:\Projects\completed project\eCrimeManagement\eCrimeManagement\obj\Debug\eCrimeManagement.pdb
